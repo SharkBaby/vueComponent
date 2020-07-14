@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="16px" viewBox="0 0 16 16" version="1.1">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icon/selector/checkbox default</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M13,0 C14.6568542,0 16,1.34314575 16,3 L16,13 C16,14.6568542 14.6568542,16 13,16 L3,16 C1.34314575,16 0,14.6568542 0,13 L0,3 C0,1.34314575 1.34314575,0 3,0 L13,0 Z M13,1 L3,1 C1.9456382,1 1.08183488,1.81587779 1.00548574,2.85073766 L1,3 L1,13 C1,14.0543618 1.81587779,14.9181651 2.85073766,14.9945143 L3,15 L13,15 C14.0543618,15 14.9181651,14.1841222 14.9945143,13.1492623 L15,13 L15,3 C15,1.9456382 14.1841222,1.08183488 13.1492623,1.00548574 L13,1 Z" id="path-1"/>
+    </defs>
+    <g id="icon/selector/checkbox-default" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"/>
+        </mask>
+        <use fill="#BCBCBC" fill-rule="nonzero" xlink:href="#path-1"/>
+        <g id="color/black" mask="url(#mask-2)" fill="#BCBCBC">
+            <g transform="translate(-42.000000, -42.000000)" id="Rectangle">
+                <rect x="0" y="0" width="100" height="100"/>
+            </g>
+        </g>
+    </g>
+</svg>

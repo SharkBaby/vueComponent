@@ -1,0 +1,85 @@
+.errorMessage {
+  color: #ec4444;
+}
+.smbLoginForm {
+  padding: 0;
+}
+.smb-login-input-div {
+  margin: 24px auto 0px auto;
+  text-align: center;
+  position: relative;
+}
+.loginEmailContainer {
+  width: 320px;
+  height: 55px;
+  font-size: 16px;
+  text-align: left;
+  padding: 8px 12px 9px;
+  border: 1px solid #BCBCBC;
+  -webkit-border-radius: 0.25em;
+  -moz-border-radius: 0.25em;
+  -ms-border-radius: 0.25em;
+  -o-border-radius: 0.25em;
+  border-radius: 0.25em;
+  background-color: #fff;
+  margin: 0 auto;
+}
+.loginEmailContainer label {
+  display: block;
+  color: #545454;
+  letter-spacing: 0;
+  height: 36px;
+  line-height: 36px;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 0;
+  
+}
+.label-move-up label {
+  font-size: 12px;
+  height: auto;
+  line-height: 1.25;
+  transition: 0.5s;
+}
+.smb-login-input-div input {
+  width: 100%;
+  padding: 0px;
+  font-size: 0.875em;
+  border: none;
+  outline: 0;
+}
+.smb-login-input-div input::-ms-reveal,
+.smb-login-input-div input::-ms-clear {
+  display: none;
+}
+.remember-me-container {
+  width: 320px;
+  margin: 16px auto 24px;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 1.214285em;
+}
+#login-remember-me {
+  display: none;
+}
+.remember-me-container label {
+  display: inline-block;
+  cursor: pointer;
+}
+.remember-me-container span {
+  vertical-align: top;
+  margin-left: 6px;
+  float: left;
+}
+.remember-me-container img {
+  float: left;
+}
+.remember-me-container input[type="checkbox"] {
+  margin: 0;
+}
+@media(max-width: 320px) {
+  .remember-me-container {
+    width: 90%;
+  }
+}

@@ -1,0 +1,431 @@
+@font-face {
+  font-family: "Lato";
+  src: local("Lato Hairline"), local("Lato-Hairline"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Hairline.eot");
+  src: local("Lato Hairline"), local("Lato-Hairline"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Hairline.eot?#iefix")
+      format("embedded-opentype"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Hairline.woff2")
+      format("woff2"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Hairline.woff")
+      format("woff"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Hairline.ttf")
+      format("truetype");
+  font-style: normal;
+  font-weight: 100;
+  text-rendering: optimizeLegibility;
+}
+@font-face {
+  font-family: "Lato";
+  src: local("Lato Light"), local("Lato-Light"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Light.eot");
+  src: local("Lato Light"), local("Lato-Light"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Light.woff2")
+      format("woff2"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Light.woff")
+      format("woff"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Light.ttf")
+      format("truetype");
+  font-style: normal;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
+@font-face {
+  font-family: "Lato";
+  src: local("Lato Regular"), local("Lato-Regular"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Regular.eot");
+  src: local("Lato Regular"), local("Lato-Regular"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Regular.woff2")
+      format("woff2"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Regular.woff")
+      format("woff"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Regular.ttf")
+      format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+@font-face {
+  font-family: "Lato";
+  src: local("Lato Bold"), local("Lato-Bold"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Bold.eot");
+  src: local("Lato Bold"), local("Lato-Bold"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Bold.woff2")
+      format("woff2"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Bold.woff") format("woff"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Bold.ttf")
+      format("truetype");
+  font-style: normal;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+}
+@font-face {
+  font-family: "Lato";
+  src: local("Lato Black"), local("Lato-Black"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Black.eot");
+  src: local("Lato Black"), local("Lato-Black"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Black.eot?#iefix")
+      format("embedded-opentype"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Black.woff2")
+      format("woff2"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Black.woff")
+      format("woff"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Black.ttf")
+      format("truetype");
+  font-style: normal;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+}
+@font-face {
+  font-family: "Lato";
+  src: local("Lato Light Italic"), local("Lato-LightItalic"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-LightItalic.eot");
+  src: local("Lato Light Italic"), local("Lato-LightItalic"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-LightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-LightItalic.woff2")
+      format("woff2"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-LightItalic.woff")
+      format("woff"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-LightItalic.ttf")
+      format("truetype");
+  font-style: italic;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+@font-face {
+  font-family: "Lato";
+  src: local("Lato Italic"), local("Lato-Italic"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Italic.eot");
+  src: local("Lato Italic"), local("Lato-Italic"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Italic.woff2")
+      format("woff2"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Italic.woff")
+      format("woff"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Italic.ttf")
+      format("truetype");
+  font-style: italic;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
+@font-face {
+  font-family: "LatoBlack";
+  src: url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Black.eot");
+  src: url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Black.eot?#iefix")
+      format("embedded-opentype"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Black.woff2")
+      format("woff2"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Black.woff")
+      format("woff"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Black.ttf")
+      format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+@font-face {
+  font-family: "LatoLight";
+  src: url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Light.eot");
+  src: url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Light.woff2")
+      format("woff2"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Light.woff")
+      format("woff"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Light.ttf")
+      format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+@font-face {
+  font-family: "LatoLight";
+  src: url("//static.lenovo.com/fea/fonts/lato/LatoLatin-LightItalic.eot");
+  src: url("//static.lenovo.com/fea/fonts/lato/LatoLatin-LightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-LightItalic.woff2")
+      format("woff2"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-LightItalic.woff")
+      format("woff"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-LightItalic.ttf")
+      format("truetype");
+  font-style: italic;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+@font-face {
+  font-family: "LatoHairline";
+  src: url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Hairline.eot");
+  src: url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Hairline.eot?#iefix")
+      format("embedded-opentype"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Hairline.woff2")
+      format("woff2"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Hairline.woff")
+      format("woff"),
+    url("//static.lenovo.com/fea/fonts/lato/LatoLatin-Hairline.ttf")
+      format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+body,
+h1,
+h2,
+h3,
+dl,
+dt,
+dd,
+form,
+figure {
+  padding: 0;
+  margin: 0;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font: 1em/1.75 "Lato", Helvetica, Arial, sans-serif;
+  background: #efefef;
+  position: relative;
+  color: #555 !important;
+  -webkit-text-size-adjust: none;
+}
+h1,
+h2,
+h3 {
+  font-size: 1em;
+  font-weight: normal;
+}
+a {
+  color: #009dd9;
+  text-decoration: none;
+  outline: 0;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+html{
+  background: #fff;
+}
+.body-inner-wrapper {
+  background: #fff;
+}
+.smbLoginV3Page {
+  width: 100%;
+  padding-top: 24px;
+}
+.smbRedesignLoginContainer {
+  background: #fff;
+}
+.loginRedesignWrapper {
+  width: 380px;
+  margin: 0 auto;
+  z-index: 99;
+}
+.loginRedesignWrapper .smb-proLogo {
+  width: 237px;
+  margin: auto;
+}
+.smbLoginMessage {
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  width: 380px;
+  margin: 0 auto;
+  line-height: 1.4375em;
+  letter-spacing: 0;
+  padding: 0 30px;
+}
+.loginRedesignWrapper .smb-login-popup {
+  background: #fff;
+  margin-top: 63.27px;
+}
+
+.smb-login-button-div.StepOne {
+  text-align: center;
+  margin: 24px 0px 0px 0px;
+}
+.smb-button {
+  position: relative;
+  transition: all 0.3s;
+  transition-timing-function: ease-in;
+  width: 320px;
+  height: 45px;
+  background-color: #1976a1;
+  border: solid 0.0625em #1976a1;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0px;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  float: none;
+  display: inline-block;
+  padding: 0.5em 0.8em;
+  font-weight: normal;
+  text-transform: none;
+  text-shadow: none;
+}
+.smb-button-title {
+  white-space: initial;
+}
+.smb-button.disabled {
+  border: 1px solid #BCBCBC;
+  background-color: #FFFFFF;
+  color: #757575;
+}
+@keyframes smb-button-spin {
+  0% {
+    animation-timing-function: cubic-bezier(0.5856, 0.0703, 0.4143, 0.9297);
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.smb-button-running {
+  display: inline-block;
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  top: 50%;
+  margin: -0.5em;
+  right: 1.25em;
+  animation: smb-button-spin 1s infinite linear;
+}
+.smb-button-running:after {
+  content: " ";
+  display: block;
+  width: 2em;
+  height: 2em;
+  box-sizing: border-box;
+  transform-origin: 0 0;
+  transform: translateZ(0) scale(0.5);
+  backface-visibility: hidden;
+  border-radius: 50%;
+  border: 0.3em solid currentColor;
+  border-left-color: transparent;
+}
+.smb-button.running {
+  padding-right: 2.5em;
+  background-color: #c6c6c6;
+  border: 1px solid #c6c6c6;
+  cursor: auto;
+  padding-left: 2.5em;
+}
+.backButtonContainer {
+  width: 320px;
+  text-align: left;
+  display: inline-block;
+  margin-top: 24px;
+}
+.backButton {
+  cursor: pointer;
+  color: #1976a1;
+}
+.smb-login-footer {
+  width: 360px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 1.1875em;
+  padding: 0 20px;
+}
+.telephoneHelp {
+  display: block;
+  padding-top: 22px;
+  color: #1976A1;
+  cursor: pointer;
+}
+.learnMore {
+  display: block;
+  padding-top: 18px;
+  padding-bottom: 24px;
+  color: #1976A1;
+  cursor: pointer;
+}
+.popover-down {
+  background-clip: padding-box;
+  background-color: #fff;
+  max-width: 345px;
+  padding: 1px;
+  text-align: left;
+  bottom: 60px;
+  white-space: normal;
+  margin: 5px 37px auto;
+  font-size: 14px;
+  line-height: 1;
+}
+.error-bg-color, .error-bg-color label {
+  color: red;
+}
+.loginEmailContainer.error-bg-color {
+  border-color: red;
+}
+@media(max-width: 380px) {
+  .loginRedesignWrapper {
+    width: 100%;
+  }
+  .smbLoginMessage {
+    width: 100%;
+  }
+  .loginEmailContainer {
+    width: 100%;
+  }
+  .smb-login-footer {
+    width: 100%;
+    padding: 0 30px;
+  }
+  .backButtonContainer {
+    width: 100%;
+  }
+}
+@media (max-width: 320px) {
+  .smb-login-input-div {
+    width: 100%;
+  }
+  .smb-login-input-div .loginEmailContainer,
+  .smb-button {
+    width: 90%;
+  }
+  .smbLoginMessage {
+    width: 90%;
+    padding: 0;
+  }
+  .smb-login-footer {
+    width: 90%;
+    padding: 0;
+  }
+}
+@media(max-width: 237px) {
+  .loginRedesignWrapper .smb-proLogo {
+    width: 90%;
+  }
+}
+@media(max-width: 750px) {
+	.smb-proLogo img {
+		width: 111px;
+		margin: auto;
+	}
+	.loginRedesignWrapper .smb-proLogo {
+		width: 111px;
+		margin: auto;
+	}
+	.loginRedesignWrapper .smb-login-popup {
+		margin-top: 24px;
+	}
+	
+}

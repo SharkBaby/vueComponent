@@ -1,0 +1,192 @@
+.smb-newPro-newId {
+    margin: 18px 0px 0px 0px;
+    text-align: center;
+}
+.smb-newPro-newId {
+    .create-password-wrapper,
+    .confirm-password-wrapper {
+        width: 320px;
+        padding: 0px;
+        text-indent: 12.5px;
+        height: 55px;
+        // line-height: 55px;
+        font-size: 0.875em;
+        border: 1px solid #BCBCBC;
+        background-color: #FFFFFF;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        border-radius: 4px;
+        margin: auto;
+        text-align: left;
+        position: relative;
+    }
+    .confirm-password-wrapper {
+        margin-top: 24px;
+    }
+    .create-password-wrapper.active-input,
+    .confirm-password-wrapper.active-input {
+        border: 1px solid #1976A1;
+    }
+    .pwd-label {
+        color: #545454;
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: 1.1875em;
+        display: block;
+        height: 100%;
+        line-height: 55px;
+    }
+    .pwd-label:after {
+        content: "*";
+        color: red;
+    }
+    .label-move-up.create-password-wrapper,
+    .label-move-up.confirm-password-wrapper {
+        line-height: 24.5px;
+    }
+    .label-move-up .pwd-label {
+        font-size: 12px;
+        line-height: 1.25em;
+        display: inline;
+    }
+    input {
+        text-indent: 12.5px;
+        border: none;
+        outline: none; 
+    }
+    input::-ms-reveal,
+    input::-ms-clear {
+        display: none;
+    }
+    .showPwd.createPassword,
+    .hidePwd.createPassword,
+    .hidePwd.confirmPassword,
+    .showPwd.confirmPassword {
+    position: absolute;
+    color: #5F5F5F;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 14.5px;;
+    font-size: 14px;
+    line-height: 17px;
+    cursor: pointer;
+    }
+    .popover {
+        width: 320px;
+        background-clip: padding-box;
+        background-color: #fff;
+        border-radius: 4px;
+        box-shadow: 0 2px 15px 0 rgba(0,0,0,0.1);
+        text-align: left;
+        white-space: normal;
+        margin: 0 auto;
+    }
+    .popover li {
+        list-style: none;
+        font-size: 12px;
+        letter-spacing: 0;
+        line-height: 15px;
+        margin-top: 10px;
+    }
+    .popover ul {
+        margin-block-start: 0;
+        padding-inline-start: 0;
+        padding: 0;
+    }
+    .popover.top {
+        margin-top: -10px;
+    }
+    .popover.right {
+        margin-left: 10px;
+    }
+    .popover.bottom {
+        margin-top: 10px;
+    }
+    .popover.left {
+        margin-left: -10px;
+    }
+    .popover-title {
+        background-color: #f7f7f7;
+        border-bottom: 1px solid #ebebeb;
+        border-radius: 5px 5px 0 0;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        margin: 0;
+        padding: 8px 14px;
+    }
+    .popover-content {
+        padding: 11.5px 12px;
+    }
+    .popover-content > p {
+        color: #000000;
+        font-size: 14px;
+        letter-spacing: 0;
+        line-height: 17px;
+        margin: 0 0 12px;
+    }
+    .popover .passwordMessageFont {
+        color: #757575;
+    }
+    .popover .passPattern .passwordMessageFont {
+        color: #008000;
+    }
+    .popover .passPattern .mdi-check-circle-outline {
+        display: inline-block;
+    }
+    .popover img.mdi {
+        width: 12px;
+        height: 12px;
+        vertical-align: middle;
+    }
+    .popover .mdi-record-circle-outline {
+        display: inline-block;
+    }
+    .popover .mdi-check-circle-outline {
+        display: none;
+    }
+    .popover .passPattern .mdi-record-circle-outline {
+        display: none;
+    }
+    .popover.confirmPasswordPopoverShow {
+        top: 127px;
+    }
+    .popover.error-bg-color span.passwordMessageFont,
+    .popover.error-bg-color img.mdi.mdi-record-circle-outline {
+        color: #ec4444;
+    }
+    .popover.error-bg-color .passPattern span.passwordMessageFont,
+    .popover.error-bg-color span.mdi.mdi-check-circle-outline {
+        color: #6a9a58;
+    }
+    .popover-down {
+        background-clip: padding-box;
+        background-color: #fff;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 6px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        left: 0;
+        max-width: 345px;
+        padding: 1px;
+        position: absolute;
+        text-align: left;
+        bottom: 60px;
+        white-space: normal;
+        z-index: 1010;
+        opacity: 0.97;
+        margin: auto 37px;
+        font-size: 14px;
+    }
+    .error-bg-color {
+        background-color: #fffdc3;
+    }
+}
+@media(max-width: 320px) {
+    .smb-newPro-newId {
+        .create-password-wrapper,.confirm-password-wrapper {
+            width: 90%;
+        }
+    }
+}
